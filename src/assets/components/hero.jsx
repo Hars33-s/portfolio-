@@ -4,24 +4,35 @@ import React from "react";
 const Hero=()=>{
 return(
     <section className="w-full h-screen flex flex-col items-center bg-black">
-<nav className="w-full h-17 fixed top-0 left-0 flex items-center justify-between px-8 py-4  shadow-md bg-black border-b border-white z-50">
-{/* Left Section */}
-<h1 className="text-2xl font-bold cursor-pointer text-white ">Portfolio</h1>
+<nav className="w-64 h-screen fixed top-0 left-0 flex flex-col  px-8 py-6 shadow-md bg-black border-r border-white z-50">
 
+  {/* Top Section */}
+  <h1 className="text-2xl font-bold cursor-pointer text-white">
+    Harsh Chhabda
+  </h1>
+  <h2 className="text-xl text-white/50   cursor-pointer   "> CSE Student </h2>
 
-{/* Right Section */}
-<ul className="flex gap-8 text-lg font-medium ">
-<li>
-<a href="#about" className="hover:text-blue-600 transition-colors text-white">About</a>
-</li>
-<li>
-<a href="#projects" className="hover:text-blue-600 transition-colors text-white   ">Projects</a>
-</li>
-<li>
-<a href="#contact" className="hover:text-blue-600 transition-colors text-white ">Contact</a>
-</li>
-</ul>
+  {/* Middle Nav Links */}
+  <ul className="flex flex-col gap-6 text-lg font-medium mt-10">
+    <li>
+      <a href="#about" className="hover:text-blue-600 transition-colors text-white">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="#projects" className="hover:text-blue-600 transition-colors text-white">
+        Projects
+      </a>
+    </li>
+    <li>
+      <a href="#contact" className="hover:text-blue-600 transition-colors text-white">
+        Contact
+      </a>
+    </li>
+  </ul>
+
 </nav>
+
 <div className=" max-w-2xl h-screen flex flex-col  items-center justify-center gap-4 px-20 mt-20">
 <div className="flex flex-col gap-2">
 <span className="text-xl font-semibold text-white">Full Stack Website Developer </span>
@@ -30,7 +41,7 @@ return(
 
 
 <a
-href="YOUR_AXURE_BLOB_LINK_HERE"
+href="https://blobharsh.blob.core.windows.net/harshcv/Harsh chhabda CV.zip"
 download
 className="w-fit px-6 py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
 >
