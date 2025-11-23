@@ -41,7 +41,8 @@ return(
 
 
 <a
-href="https://blobharsh.blob.core.windows.net/harshcv/Harsh chhabda CV.zip"
+href="
+https://rohitresume.blob.core.windows.net/harshcv/Harsh chhabda resume.pdf"
 download
 className="w-fit px-6 py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors"
 >
